@@ -24,8 +24,11 @@
 }
 #logo img{
     height: 56px;
-    margin: 34px 45px;
+    margin: 5px 6px;
 }
 
 /* Navigation Bar: List Styling */
 
+ul{
+    display: flex;
+}
