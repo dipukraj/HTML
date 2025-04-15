@@ -58,8 +58,7 @@
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
-    text-decoration: none;
-     
+    text-decoration: none; 
 }
 
 #navbar ul li a:hover{
@@ -74,7 +73,16 @@
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
+}
 
+#home::before{
+    content: "";
+    position: absolute;
+    background:
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
 }
     
 
