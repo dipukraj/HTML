@@ -130,6 +130,26 @@
     #services{}
 
 
+/* client section */
+#client-section{
+    height: 344px;
+
+}
+
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#clients img{
+    height: 120px;
+}
+    
+
+
 
 
 
