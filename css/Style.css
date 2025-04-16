@@ -41,6 +41,8 @@
     content: "";
     background-color: black;
     position: absolute;
+    top: 0px;
+    left: 0px;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -71,7 +73,7 @@
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 400px;
+    height: 850px;
     justify-content: center;
     align-items: center;
 }
@@ -82,6 +84,8 @@
     background: url(../image/background1.jpg) no-repeat center center/cover;
     
     height: 100%;
+    top: 0px;
+    left: 0px;
     width: 100%;
     z-index: -1;
     opacity: 0.89;
@@ -94,14 +98,48 @@
     }
 
 
-    #home p{
-        color: black
-        text-align: center;
-        font-size: 1.5rem;
+#home p{
+     color: black
+    text-align: center;
+    font-size: 1.5rem;
          
     }
+
+
+/* services section */
+#services{
+    margin: 34px;
+    display: flex;
+    }
+
+#services .box{
+     border: 2px solid brown;
+     padding: 34px;
+     margin: 3px 6px;
+     border-radius: 30px;  
+     }
+
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+    }
+    
+    #services{}
+    #services{}
+
+
+
+
+
 /* utilities classes */
 .h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+
+.h-secondary{
     font-size: 2.8rem;
     padding: 12px;
 }
@@ -117,5 +155,9 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+.center{
+    text-align: center;
+ }
 
 
