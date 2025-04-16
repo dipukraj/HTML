@@ -180,6 +180,11 @@
     background:url(../image/contact.jpg) no-repeat center center/cover;  
 }
 
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
 
 footer{
     background: black;
