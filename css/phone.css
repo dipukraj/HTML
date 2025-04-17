@@ -11,8 +11,8 @@
 
 /* Home Section */
 #home{
-    height: 400px;
-    padding: 3px 68px;
+    height: 370px;
+    padding: 3px 28px;
 }
 
 #home::before{
@@ -31,15 +31,30 @@
     flex-direction: column;
 }
 
+#services .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+
+}
 
 
 
 /* Clients Section */
 #clients{
-    overflow: hidden;
+    flex-wrap: wrap;
 }
 
-/* Contact Section */
+#clients img{
+     width: 66px;
+     padding: 56px;
+     height: auto;
+}
+
+/* Contact us Section */
+#contact-box form{
+    width: 80%;
+}
 
 /* Footer */
 
@@ -47,5 +62,10 @@
 /* Utility Classes */
 
 .h-primary{
-    font-size: 30px;
+    font-size: 26px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
 }
