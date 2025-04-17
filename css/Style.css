@@ -19,6 +19,8 @@ html{
 #navbar{
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 
 /* Navigation Bar: logo and image */
@@ -34,7 +36,8 @@ html{
 
 /* Navigation Bar: List Styling */
 #navbar{
-    position: relative;
+    position: sticky;
+    top: 0px;
 }
 
 #navbar ul{
