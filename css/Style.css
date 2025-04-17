@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 html{
     scroll-behavior: smooth;
@@ -17,22 +22,22 @@ html{
 /* Navigation Bar */
 
 #navbar{
+    width: 100vw;
     z-index: 9999;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0px;
+    left: 0;
 }
 #navbar div{
-    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* Navigation Bar: logo and image */
-#logo{
-    margin: 34px 45px;
-    width: 20px;
-    z-index: 9999;
 
-}
 #logo img{
     height: 56px;
     margin: 5px 6px;
@@ -46,9 +51,14 @@ html{
     left: 0;
     background: rgb(145, 19, 0);
     backdrop-filter: blur(5px);
-    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
+   
 }
-
+#navbar div:nth-child(1){
+    margin-left: 20px;
+}
+#navbar div:nth-child(2){
+    margin-right: 20px;
+}
 #navbar ul{
     display: flex;
 }
@@ -84,18 +94,25 @@ html{
     background-color: white;
 }
 
+#menuBtn{
+    display: none;
+}
 /* Home Section */
 #home{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
     display: flex;
     flex-direction: column;
-    padding: 3px 200px;
-    height: 640px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    background: url(../image/background1.jpg) ;
+    background-position: center center;
+    background-size: cover;
 }
 
-#home::before{
+/* #home::before{
     content: "";
     position: absolute;
     background: url(../image/background1.jpg) no-repeat center center/cover;
@@ -105,7 +122,7 @@ html{
     width: 100%;
     z-index: -1;
     opacity: 0.89;
-}
+} */
 #bgblack{
     position: absolute;
     top: 0;
@@ -117,23 +134,31 @@ html{
 }
 
 #home h1{
+    padding: 10px;
+    margin-bottom: 10px;
     color: white;
     text-align: center;
     z-index: 99;
-
+    font-size: 40px;
+    
     }
 
 
 #home p{
+    padding: 5px;
     color: white;
     z-index: 99;
     text-align: center;
-    font-size: 1.5rem;
+    
          
     }
 
 
 /* services section */
+#service-container{
+    max-width: 100vw;
+    
+}
 #services{
     margin: 30px;
     display: flex;
@@ -158,8 +183,8 @@ html{
 
 /* client section */
 #client-section{
+    width: 100vw;
     position: relative;
-    height: 344px;
 
 }
 
@@ -180,7 +205,9 @@ html{
     justify-content: center;
     align-items: center;
 }
-
+.h-primary{
+    padding-top: 20px;
+}
 .client-item{
     padding: 34px;
 }
@@ -237,8 +264,8 @@ footer{
 
 
 /* utilities classes */
-.h-primary{
-    font-size: 2.8rem;
+.primary{
+    
     padding: 12px;
 }
 
@@ -274,4 +301,13 @@ footer{
 
  #hotellogo{
     border-radius: 50%;
+ }
+
+ .formDiv{
+    background-color: rgba(179, 170, 170, 0.743);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+ }
+ .formDiv::placeholder{
+    color: white;
  }
