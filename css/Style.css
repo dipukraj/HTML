@@ -180,10 +180,27 @@
     background:url(../image/contact.jpg) no-repeat center center/cover;  
 }
 
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: bottom: 34px;
+}
+
 #contact-box input,
 #contact-box textarea{
     width: 100%;
     padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1.3rem;
 }
 
 footer{
