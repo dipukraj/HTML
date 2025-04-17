@@ -205,7 +205,9 @@ html{
     justify-content: center;
     align-items: center;
 }
-
+.h-primary{
+    padding-top: 20px;
+}
 .client-item{
     padding: 34px;
 }

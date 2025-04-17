@@ -36,14 +36,14 @@
 
 /* Clients Section */
 #clients{
-
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #clients img{
      width: 66px;
-     padding: 56px;
-     height: auto;
+     height: 66px;
+     
+     
 }
 
 /* Contact us Section */
