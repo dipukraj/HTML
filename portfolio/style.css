@@ -94,11 +94,14 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #0f172a;
   color: #f1f5f9;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 /* Navbar */
@@ -124,7 +127,10 @@ body {
   font-size: 1.8rem;
   cursor: pointer;
   display: none;
-  color: #f1f5f9;
+  background: transparent;
+  color: white;
+  border: none;
+  /* color: #f1f5f9; */
 }
 
 .nav-links {
@@ -171,7 +177,7 @@ body {
 }
 
 /* Hero Section */
-header.hero {
+header#hero {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -182,16 +188,21 @@ header.hero {
   padding: 2rem;
 }
 
-.hero h1 {
-  font-size: 3rem;
+#hero h1 {
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.hero h1 span {
+#hero h1 span {
   color: #38bdf8;
 }
 
-.hero .typewriter {
+#hero h2 {
+  font-size: 1.5rem;
+  color: #82d71f;
+}
+
+#hero .typewriter {
   font-size: 1.2rem;
   color: #cbd5e1;
   margin-bottom: 1.5rem;
