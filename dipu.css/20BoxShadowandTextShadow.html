@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+</head>
+<style>
+    .container {
+        display: flex;
+         
+    }
+
+    .card {
+        padding: 23px 20px;
+        border: 2px solid red;
+        margin: 20px 12px;
+        background-color: burlywood;
+        /* box-shadow: offset-x offset-y color; */
+        /* box-shadow: offset-x offset-y blur-radius color; */
+        /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+        /* box-shadow: 10px 13px green; */
+        /* box-shadow: -10px -13px green; */
+        /* box-shadow: 7px 10px 5px green; */
+        /* box-shadow: -7px -10px 5px green; */
+        /* box-shadow: -7px -10px 5px 34px green; */
+        /* box-shadow: -7px -10px 5px 34px rgba(71, 172, 172, 0.5); */
+        box-shadow: inset 3px 5px green;
+
+        box-shadow: 3px 5px green, 4px 6px red;
+         
+    }
+    .card h2{
+        /* text-shadow: 2px 3px red; */
+        text-shadow: 2px 3px 2px white;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is C++ Course</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, corrupti unde natus sed nam, quaerat pariatur quis esse earum doloribus est perferendis velit sunt quas consequatur sapiente blanditiis facere omnis vero commodi nisi. Earum.</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is HTML Course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aspernatur, itaque id natus aliquam dolorem, quisquam ab fuga odio iste voluptates tenetur, nesciunt repudiandae deserunt debitis. Cupiditate, ipsam! Accusamus vel quia perspiciatis odit fugiat.</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, corrupti unde natus sed nam, quaerat pariatur quis esse earum doloribus est perferendis velit sunt quas consequatur sapiente blanditiis facere omnis vero commodi nisi. Earum.</p>
+        </div>
+    </div>
+</body>
+</html>
