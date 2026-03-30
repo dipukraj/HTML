@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations & Keyframes</title>
+</head>
+<style>
+.container{
+    background-color: greenyellow;
+}
+.box{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* animation-name: dipu1; */
+    animation-name: dipu2;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    /* nimataion-fill-mode: alternate; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-delay:3s; */
+    /* animation-direction: reverse; */
+}
+@keyframes dipu2{
+    0%{
+         top: 0px;
+            left: 0px;
+    }
+    25%{
+        top: 250px;
+        left: 0px;
+    }
+    50%{
+
+    }
+    75%{
+       top: 250px;
+         left: 250px;
+    }
+    100%{
+        top: 0px;
+        left: 250px;
+    }
+}  
+@keyframes dipu1{
+    from{
+        width: 200px;
+    }
+    to{
+        width: 1400px;
+    }
+}
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            This is a Box
+        </div>
+    </div>
+</body>
+</html>
