@@ -9,13 +9,14 @@
             display: grid;
             grid-gap: 1rem;
             grid-template-areas:
-            "navbar navbar navbar navbar"
-            "section section section section"
-
+            'navbar navbar navbar navbar'
+             'section section section aside'
+             'footer footer footer footer';
         }
         .item{
             background-color: yellow;
             border: 2px solid black;
+            padding: 20px 23px;
              
         }
 
@@ -30,6 +31,9 @@
         #aside{
             grid-area: aside;
         }
+        footer{
+            grid-area: footer;
+        }
     </style>
 </head>
 <body>
@@ -37,8 +41,15 @@
         <div id="navbar" class="item">
             home about services contact
         </div>
-        <div id="section" class="item"></div>
-        <div id="aside" class="item"></div>
+        <div id="section" class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, accusamus facere quibusdam numquam ipsam velit a repellat perspiciatis voluptatem harum maxime odit earum officia facilis.
+        </div>
+        <div id="aside" class="item">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere numquam ullam hic officia non autem!
+        </div>
+        <footer class="item">
+            &copy; 2023 My Website. All rights reserved.
+        </footer>
 
         <!-- <div class="item">Item-1</div>
         <div class="item">Item-2</div>
