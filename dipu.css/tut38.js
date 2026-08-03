@@ -8,6 +8,8 @@ let name1 = "Bittu";
 let name2 = "Rahul";
 let name3 = "Mukesh";
 
+let greetText = "Good Morning";
+
 greet(name);
 greet(name1);
 greet(name2);
