@@ -1,6 +1,7 @@
 console.log("This is Tutorial 38");
 
 function greet(name, greetText){
+    let name1 = "Name1";
     console.log(greetText + " " + name);
     console.log(name + " is a good boy");
 }
