@@ -9,6 +9,7 @@ let name2 = "Rahul";
 let name3 = "Mukesh";
 
 greet(name);
+greet(name1);
 // console.log(name + " is a good boy");
 // console.log(name1 + " is a good boy");
 // console.log(name2 + " is a good boy");
