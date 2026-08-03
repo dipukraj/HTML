@@ -11,10 +11,10 @@ let name3 = "Mukesh";
 
 let greetText = "Good Morning";
 
-greet(name);
-greet(name1);
-greet(name2);
-greet(name3);
+greet(name, greetText);
+greet(name1, greetText);
+greet(name2, greetText);
+greet(name3, greetText);
 // console.log(name + " is a good boy");
 // console.log(name1 + " is a good boy");
 // console.log(name2 + " is a good boy");
