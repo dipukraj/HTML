@@ -4,3 +4,4 @@ let name = "Dipu";
 let name1 = "Dipu";
 let name2 = "Dipu";
 let name3 = "Dipu";
+console.log(name + " is a good boy");
