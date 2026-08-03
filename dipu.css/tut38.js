@@ -7,3 +7,4 @@ let name3 = "Mukesh";
 console.log(name + " is a good boy");
 console.log(name1 + " is a good boy");
 console.log(name2 + " is a good boy");
+console.log(name3 + " is a good boy");
