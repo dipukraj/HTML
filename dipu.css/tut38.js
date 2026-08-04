@@ -17,6 +17,7 @@ greet(name1, greetText);
 greet(name2, greetText);
 greet(name3, greetText);
 greet(name4, greetText);
+greet(name5, greetText);
 let returnVal = greet(name3);
 // console.log(name + " is a good boy");
 // console.log(name1 + " is a good boy");
