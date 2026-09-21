@@ -40,7 +40,7 @@
         let obj1 = {
             names: ["Dipu", "John", "Jane", "Bittu", "Mukesh", "Rahul", "Gaurav"],
             speak() {
-                this.names.forEach((student) => {
+                this.names.forEach(function s (student){
                     console.log(this.greeting + " kukdoo koo " + student);
                 });
 
