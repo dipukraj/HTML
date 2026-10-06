@@ -7,3 +7,4 @@
 
 const fs = require("fs");
 let text = fs.readFile("Backend.js", "utf-8");
+console.log("The content of the file is");
