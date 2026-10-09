@@ -8,3 +8,7 @@ const server = http.createServer((req, res) => {
     res.end(filecontent);
 
 })
+
+server.listen(5000, '127.0.0.1', () => {
+
+});
