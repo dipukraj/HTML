@@ -6,6 +6,7 @@ const port = 3000;
 const home = fs.readFileSync('index.html');
 const about = fs.readFileSync('about.html');
 const contact = fs.readFileSync('contact.html');
+const services = fs.readFileSync('services.html');
 
 const server = http.createServer((req, res) => {
     console.log(req.url);
