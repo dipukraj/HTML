@@ -5,5 +5,6 @@ function average(arr){
     arr.forEach(element => {
         sum += element;
     });
+    return sum / arr.length;
      
 }
