@@ -1,6 +1,8 @@
 console.log("This is index.js");
 function average(arr){
-    arr.forEach((element) => {
-        console.log(element);
+    let sum = 0;
+
+    arr.forEach(element => {
+        sum += element;
     });
 }
