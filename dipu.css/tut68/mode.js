@@ -9,4 +9,8 @@ function average(arr){
      
 }
 
-module.exports = average;
+module.exports = {
+    avg: average,
+    name: "Dipu"
+
+}
