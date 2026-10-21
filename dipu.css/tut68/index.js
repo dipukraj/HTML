@@ -3,4 +3,5 @@ console.log("This is index.js");
 // const average = require("./mode");
 
 const mod = require("./mode");
+console.log(mod.average([3, 4]));
  
