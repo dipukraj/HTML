@@ -9,9 +9,11 @@ function average(arr){
      
 }
 
-module.exports = {
-    avg: average,
-    name: "Dipu", 
-    repo: "Github"
+// module.exports = {
+//     avg: average,
+//     name: "Dipu", 
+//     repo: "Github"
 
-}
+// }
+
+module.exports.name = "Dipu"
